@@ -1,0 +1,6 @@
+require("config.lazy")
+require("config.mason")
+require("config.nvim")
+require("config.keymaps")
+require("config.lsp_signature")
+require("config.lspconfig")
