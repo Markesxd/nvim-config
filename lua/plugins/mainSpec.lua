@@ -6,22 +6,17 @@ return {
 	{
 		"ray-x/lsp_signature.nvim",
 		event = "VeryLazy",
-		opt= {},
-		config = function(_, opts) require'lsp_signature'.setup(opts) end
 	},
 	{
-		"neovim/nvim-lspconfig", 
-		lazy = false, 
+		"neovim/nvim-lspconfig",
+		lazy = false,
 		dependencies = {
 			{ "ms-jpq/coq_nvim", branch = "coq" },
 		},
 		init = function()
 			vim.g.coq_settings = {
-				auto_start = true, 
+				auto_start = true,
 			}
-		end,
-		config = function()
-			-- Your LSP settings here
 		end,
 	},
 	{
