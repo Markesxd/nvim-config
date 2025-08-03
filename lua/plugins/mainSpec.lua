@@ -1,5 +1,9 @@
 return {
 	{
+		"kylechui/nvim-surround",
+		event = "VeryLazy",
+	},
+	{
 		"ray-x/lsp_signature.nvim",
 		event = "VeryLazy",
 		opt= {},
@@ -36,4 +40,7 @@ return {
 		"mfussenegger/nvim-jdtls",
 		"nvim-treesitter/nvim-treesitter"
 	},
+	{
+		"tpope/vim-fugitive"
+	}
 }
